@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia</title>
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <div id = "container">
+<h1>Totally Trivial Trivia!</h1>
+
+
+<button type="button" class="btn btn-success" id = "start">Start!</button>
+<div id = "content"> 
+<h2>Time Remaining: <span id = "time"></span></h2>
+
+<h3>1, Spinach is high in which mineral?</h3> <!--A-->
+<input type = "radio" name = "1" value = "Iron">Iron</input>
+<input type = "radio" name = "1" value = "Copper">Copper</input>
+<input type = "radio" name = "1" value = "Zinc">Zinc</input>
+<input type = "radio" name = "1" value = "Calcium">Calcium</input>
+
+<h3>2, Which type of dog has breeds called Scottish, Welsh and Irish?</h3><!--B-->
+<input type = "radio" name = "2" value = "Huskie">Huskie</input>
+<input type = "radio" name = "2" value = "Terrier">Terrier</input>
+<input type = "radio" name = "2" value = "Golden Retriever">Golden Retriever</input>
+<input type = "radio" name = "2" value = "Teddy">Teddy</input>
+
+<h3>3, How to create a paragraph?</h3> <!--B-->
+<input type = "radio" name = "3" value = "Paragraph">Paragraph</input>
+<input type = "radio" name = "3" value = "P tag">P tag</input>
+<input type = "radio" name = "3" value = "h1 tag">h1 tag</input>
+<input type = "radio" name = "3" value = "PA tag">PA tag</input>
+
+<h3>4, Where to link the CSS file in HTML file?</h3> <!--D-->
+<input type = "radio" name = "4" value = "Body">Body</input>
+<input type = "radio" name = "4" value = "In the div">In the div</input>
+<input type = "radio" name = "4" value = "Don't need to link">Don't need to link</input>
+<input type = "radio" name = "4" value = "Head">Head</input>
+<br>
+
+<button type="button" class="btn btn-warning" id = "done">Done!</button>
+</div>
+
+<div id = "result">
+ <h2 id = "allDone">All Done!</h2>
+ <div id ="correct"></div>
+ <div id ="incorrect"></div>
+ <div id ="unanswered"></div>
+
+</div>
+
+ </div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

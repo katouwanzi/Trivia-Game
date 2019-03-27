@@ -1,0 +1,51 @@
+#container{
+    margin: 50px auto;
+    width:60%;
+}
+
+body{
+    background-image: url("../images/bg.jpg");
+    object-fit: scale-down;
+}
+
+h1{
+    text-align: center;
+    color:rgb(240, 17, 110);
+    font-family:'Baloo Chettan', cursive;
+    font-size: 4.5em;
+}
+
+button{
+    margin-left: 40%;
+    width: 15%;
+    margin-top: 30px;
+}
+
+h2{
+    color:rgb(218, 131, 0);
+}
+
+h3{
+    padding:10px;
+}
+
+input[type = radio]{
+    margin-right:20px;
+    margin-left:15px;
+}
+
+input[type = value]{
+    font-size:1.5em;
+}
+
+#correct, #incorrect, #unanswered{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+#allDone{
+    text-align: center;
+}
+
+
+
